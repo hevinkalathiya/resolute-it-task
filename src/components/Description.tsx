@@ -1,37 +1,33 @@
 const Description = () => {
   return (
-    <div className="max-w-5xl block md:flex mx-auto my-20">
+    <div className="max-w-5xl block md:flex mx-auto my-20 p-2">
       <div className="flex flex-col w-full md:w-7/12">
-        <div className="  mr-10">
-          <div className="flex gap-16 mx-10  ">
-            <div className=" w-1/2 rounded-xl flex justify-center items-center flex-col h-[170px] bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
+        <div className="mr-10">
+          <div className="flex md:gap-16 md:mx-10  ">
+            <div className=" w-1/2 rounded-xl flex justify-center items-center flex-col mx-4 h-[170px] bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
               <h2 className="text-3xl text-bold text-white text-center">7+</h2>
               <p className="text-white text-center">Countries</p>
             </div>
-            <div className=" w-1/2 rounded-xl flex justify-center items-center flex-col mt-10 h-[170px] bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
+            <div className=" w-1/2 rounded-xl flex justify-center items-center flex-col md:mt-10 h-[170px] bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
               <h2 className="text-3xl text-bold text-white text-center">50+</h2>
               <p className="text-white text-center">Cities</p>
             </div>
           </div>
         </div>
-        <div className="  mr-10">
-          <div className="flex gap-16 mx-10  ">
-            <div className=" w-1/2 rounded-xl h-[170px] flex justify-center items-center flex-col bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
-              <h2 className="text-3xl text-bold text-white text-center">
-                100+
-              </h2>
-              <p className="text-white text-center">Features</p>
+        <div className="mr-10 mt-5">
+          <div className="flex md:gap-16 md:mx-10  ">
+            <div className=" w-1/2 rounded-xl flex justify-center items-center flex-col mx-4 h-[170px] bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
+              <h2 className="text-3xl text-bold text-white text-center">7+</h2>
+              <p className="text-white text-center">Countries</p>
             </div>
-            <div className=" w-1/2 rounded-xl mt-10 h-[170px] flex justify-center items-center flex-col bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600 p-10">
-              <h2 className="text-3xl text-bold text-white text-center">
-                750+
-              </h2>
-              <p className="text-white text-center">Outlet</p>
+            <div className=" w-1/2 rounded-xl flex justify-center items-center flex-col md:mt-10 h-[170px] bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
+              <h2 className="text-3xl text-bold text-white text-center">50+</h2>
+              <p className="text-white text-center">Cities</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full md:w-5/12">
+      <div className="w-full md:mt-0 mt-5 md:w-5/12">
         <p className="text-3xl ">
           What Is <span className="font-bold">REPOS?</span>
         </p>

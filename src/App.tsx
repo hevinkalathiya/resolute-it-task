@@ -10,6 +10,7 @@ function App() {
   return <></>;
 =======
 import "./App.css";
+import Description from "./components/Description";
 import Hero from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 
@@ -18,6 +19,7 @@ function App() {
     <div className="max-w-[1500px] mx-auto">
       <Navbar />
       <Hero />
+      <Description />
     </div>
   );
 >>>>>>> 03d48ce (Feat: Navbar Created)

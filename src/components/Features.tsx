@@ -6,7 +6,16 @@ export function Features() {
         alt=""
         className="w-full"
       />
-      <div className="mx-auto grid w-full items-center space-y-4 px-[150px] py-16 md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-4 bg-[#e9f3fd]">
+      <div className="bg-[#e9f3fd] mx-auto">
+        <p className="text-3xl  text-center">
+          Explore our awesome <span className="font-bold">Feature Set</span>
+        </p>
+        <img
+          className=" flex items-center justify-center text-center  m-auto "
+          src="https://re-pos.in/wp-content/uploads/2019/11/title_divider-1.png"
+        />
+      </div>
+      <div className="mx-auto grid w-full items-center space-y-4 md:px-[150px] md:py-16 px-2 md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-4 bg-[#e9f3fd]">
         {Array.from({ length: 8 }).map((_, i) => (
           <div key={i} className="shadow-2xl rounded-2xl border bg-white">
             <div className="p-4 pb-10">
@@ -23,7 +32,7 @@ export function Features() {
                 Pariatur fugit ratione placeat repudiandae impedit? Temporibus.
               </p>
               <div className="mt-4 flex justify-center items-center">
-                <button className="inline-flex items-center justify-center rounded-md p-3 px-3 bg-[#002365] border-[#002365] text-white text-sm  hover:bg-gray-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black mt-2">
+                <button className="inline-flex items-center justify-center rounded-md p-3 px-5 bg-[#002365] border-[#002365] text-white text-sm  hover:bg-gray-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black mt-2">
                   Know More
                 </button>
               </div>

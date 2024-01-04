@@ -1,7 +1,7 @@
 const Description = () => {
   return (
     <div className="max-w-5xl block md:flex mx-auto my-20">
-      <div className="flex flex-col w-7/12">
+      <div className="flex flex-col w-full md:w-7/12">
         <div className="  mr-10">
           <div className="flex gap-16 mx-10  ">
             <div className=" w-1/2 rounded-xl flex justify-center items-center flex-col h-[170px] bg-gradient-to-br from-blue-900 via-teal-500 to-green-400 via-sky-600  p-10">
@@ -31,7 +31,7 @@ const Description = () => {
           </div>
         </div>
       </div>
-      <div className="w-5/12">
+      <div className="w-full md:w-5/12">
         <p className="text-3xl ">
           What Is <span className="font-bold">REPOS?</span>
         </p>
